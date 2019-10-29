@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android SQLite Example</string>
+    <string name="product_name">Product name</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_quantity">Enter quantity</string>
+    <string name="enter_price">Enter a price for per quantity</string>
+</resources>
+

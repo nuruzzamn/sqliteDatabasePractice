@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:id="@+id/enter_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#ffff"
+            android:hint="@string/enter_name"
+            android:inputType="textPersonName"
+            android:textColor="#cccccc"
+            android:textSize="20sp"
+            android:text=""/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:id="@+id/enter_quantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_quantity"
+            android:backgroundTint="#ffff"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:text=""
+             />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:textColorHint="#cccccc">
+
+        <EditText
+            android:id="@+id/enter_Price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_price"
+            android:textSize="20dp"
+            android:inputType="number"
+            android:backgroundTint="#ffff"
+            android:text=""
+             />
+    </android.support.design.widget.TextInputLayout>
+
+   <!--
+    <EditText
+        android:id="@+id/enter_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name"
+        android:textSize="16dp"
+        android:inputType="text"
+        android:textStyle="bold"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/enter_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_quantity"
+
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+    <EditText
+        android:id="@+id/enter_Price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_price"
+        android:layout_marginTop="15dp"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:inputType="number"
+        android:background="@drawable/brown_border"
+        android:maxLines="1"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:textColor="@color/colorBlack"
+        android:padding="10dp"/>
+
+-->
+</LinearLayout>
